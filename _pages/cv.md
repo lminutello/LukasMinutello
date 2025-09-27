@@ -1,19 +1,19 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Lukas Minutello - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "/assets/resumeLM.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [lsm229@cornell.edu](lsm229@cornell.edu) | | | **Phone:** +1 917 885 5603
 
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+Make something cool
 
 ---
 
