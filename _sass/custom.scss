@@ -3,6 +3,9 @@ $primary-color: #3a3f58;
 $background-color: #f7f8fa;
 $text-color: #333;
 
+// Set the color scheme here to use any available theme
+$color_scheme: 'cornellRed';
+
 // Set theme colors based on the color_scheme variable
 @if $color_scheme == 'dark' {
   $primary-color: #333;
@@ -16,6 +19,10 @@ $text-color: #333;
   $primary-color: #925959;
   $background-color: #f6f1e0;
   $text-color: #1e0101;
+} @else if $color_scheme == 'cornellRed' {
+  $primary-color: #961616; // Cornell Red (darker, softer shade)
+  $background-color: #f7f8fa; // keep existing background
+  $text-color: #333; // keep existing text color
 }
 
 
