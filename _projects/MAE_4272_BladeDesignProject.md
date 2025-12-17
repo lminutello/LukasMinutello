@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Self Balancing Robot
+title: Turbine Blade Design
 description: Class project with Graphs
 technologies: [MATLAB, python]
 image: /assets/images/function-graph.png
