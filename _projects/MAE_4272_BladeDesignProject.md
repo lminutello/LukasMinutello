@@ -26,8 +26,10 @@ After the optimal operating parameters and airfoil were selected, the geometry o
 After the geometry was designed, we needed to ensure that the blade wouldn't break under load. For our load conditions for this structural analysis, we used a wind speed greater than the optimal power speed to account for the higher wind speeds in the probability distribution. We accounted for about two standard deviations above the mean, which came out to be about U = 7m/s. Rotation rate remained at 1900RPM for this analysis, as it is assumed that the turbine torque brake/generator changes its resisting torque to reduce the rotation rate. Bending moments about the chord at the root and about the connection point to the turbine center were the limiting load locations, but still had FOSs far above 1.
 
 <div style="display: flex; gap: 10px; margin-bottom: 10px;">
-  <img src="{{'/assets/images/TurbineBladeDesign/irl.png' | relative_url }}" alt="Windtunnel Setup" style="width: 50%; height: auto; justify-content: center;">
-  <figcaption>Example setup in Cornell wind tunnel (not our blades)</figcaption>
+  <figure style="margin: 0 auto; width: fit-content; text-align: center;">
+    <img src="{{'/assets/images/TurbineBladeDesign/irl.png' | relative_url }}" alt="Windtunnel Setup" style="width: 60%; height: auto;">
+    <figcaption style="text-align: center;">Example setup in wind tunnel (not our blades)</figcaption>
+  </figure>
 </div>
 
 To actually test the blade, three of the blades were attached to a center hub piece, which was then mounted to a torque brake inside the wind tunnel. The wind speed and the torque brake voltage were inputs for the testing setup. The testing procedure was as follows: Set torque brake voltage to zero, set tunnel windspeed, increase torque voltage at intervals, record until stall, redo with higher windspeeds. From this, rotation rate vs power curves were recorded for different wind speeds.
