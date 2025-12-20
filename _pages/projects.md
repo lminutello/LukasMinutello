@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lukas Minutello - Portfolio
+title: Lukas Minutello - Projects
 permalink: /projects/
 ---
 

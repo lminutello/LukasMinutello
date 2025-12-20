@@ -28,7 +28,7 @@ After the geometry was designed, we needed to ensure that the blade wouldn't bre
 <div style="display: flex; gap: 10px; margin-bottom: 10px;">
   <figure style="margin: 0 auto; width: fit-content; text-align: center;">
     <img src="{{'/assets/images/TurbineBladeDesign/irl.png' | relative_url }}" alt="Windtunnel Setup" style="width: 60%; height: auto;">
-    <figcaption style="text-align: center;">Example setup in wind tunnel (not our blades)</figcaption>
+    <figcaption style="text-align: center;">Example setup in wind tunnel</figcaption>
   </figure>
 </div>
 
