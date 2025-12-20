@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Ethical Analysis of the Boeing 737 MAX Crisis
+title: Boeing 737 MAX Crisis Ethical Analysis 
 description: Ethical Analysis of the Boeing 737 MAX Crisis for MAE 4300 Portfolio Assignment
 technologies: 
 image: /assets/images/TurbineBladeDesign/irl.png
