@@ -12,12 +12,16 @@ title                    : Lukas Minutello
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Lukas Minutello
-description              : Lukas Minutello - Projects and CV 
+description              : Mechanical engineering portfolio of Lukas Minutello
 baseurl                  : "/LukasMinutello" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
-color_scheme: light # light/default, dark, or aqua
+
+# Contact
+email: lsm229@cornell.edu
+linkedin: lukasminutello
+github: lminutello
 
 sass:
   style: compressed

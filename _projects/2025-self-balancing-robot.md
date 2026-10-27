@@ -1,4 +1,6 @@
 ---
+order: 10
+hidden: true
 layout: project
 title: Self Balancing Robot
 description: Class project with Graphs

@@ -1,0 +1,8 @@
+<a class="project-card" href="{{ include.project.url | relative_url }}">
+  <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.title }}" loading="lazy">
+  <div class="card-body">
+    <h3>{{ include.project.title }}</h3>
+    <p>{{ include.project.summary | default: include.project.description }}</p>
+    {% if include.project.technologies %}<div class="tags">{% for t in include.project.technologies %}<span class="tag">{{ t }}</span>{% endfor %}</div>{% endif %}
+  </div>
+</a>

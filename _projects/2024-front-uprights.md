@@ -1,4 +1,7 @@
 ---
+order: 1
+featured: true
+summary: Redesigned the Baja front uprights around tighter suspension packaging, using FEA with wheel force transducer load cases. Zero failures at competition.
 layout: project
 title: Front Uprights
 description: Front Uprights for Cornell Baja Racing TG21 Car (2024-2025)

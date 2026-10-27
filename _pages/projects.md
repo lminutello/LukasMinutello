@@ -1,18 +1,13 @@
 ---
 layout: default
-title: Lukas Minutello - Projects
+title: Projects - Lukas Minutello
 permalink: /projects/
 ---
 
-<div class="gallery-container">
-<div class="project-gallery">
-    {% for project in site.projects %}
-      <div class="gallery-item">
-        <a href="{{ project.url | relative_url }}">
-          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" />
-          <p>{{ project.title}}</p>
-        </a>
-      </div>
-    {% endfor %}
-</div>
+<h1>Projects</h1>
+<p class="prose" style="color:#5C645E;">Design, analysis, and build work from Cornell Baja Racing, coursework, and research.</p>
+
+<div class="card-grid">
+{% assign projects = site.projects | where_exp: "p", "p.hidden != true" | sort: "order" %}
+{% for project in projects %}{% include project-card.html project=project %}{% endfor %}
 </div>
