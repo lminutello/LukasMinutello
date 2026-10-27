@@ -10,8 +10,8 @@ title: Lukas Minutello
     <p class="tagline">[PLACEHOLDER] Mechanical engineer at Cornell. Structures, FEA, and getting parts made.</p>
     <div class="btn-row">
       <a class="btn-green" href="{{ "/resume/" | relative_url }}"><i class="bi bi-file-earmark-text"></i> Resume</a>
-      <a class="btn-outline-green" href="mailto:{{ site.email }}"><i class="bi bi-envelope"></i> Email</a>
-      <a class="btn-outline-green" href="https://www.linkedin.com/in/{{ site.linkedin }}"><i class="bi bi-linkedin"></i> LinkedIn</a>
+      <button type="button" class="btn-outline-green" data-bs-toggle="modal" data-bs-target="#contactModal"><i class="bi bi-person-lines-fill"></i> Contact</button>
+      <a class="btn-outline-green" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
     </div>
   </div>
 </section>
