@@ -1,6 +1,6 @@
 ---
 order: 9
-summary: Case study on the 737 MAX crashes, from MCAS and sensor redundancy to the organizational decisions behind them.
+summary: "[PLACEHOLDER] Case study on the 737 MAX crashes, from MCAS and sensor redundancy to the organizational decisions behind them."
 layout: project
 title: Ethical Analysis of the Boeing 737 MAX Crisis
 description: Ethical Analysis of the Boeing 737 MAX Crisis for MAE 4300 Portfolio Assignment

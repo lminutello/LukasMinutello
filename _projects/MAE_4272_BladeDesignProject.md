@@ -1,7 +1,7 @@
 ---
 order: 2
 featured: true
-summary: Designed and wind-tunnel tested a three-blade turbine. Hit ~20% efficiency (34% of the Betz limit) right where the wind data said it mattered.
+summary: "[PLACEHOLDER] Designed and wind-tunnel tested a three-blade turbine. Hit ~20% efficiency (34% of the Betz limit) right where the wind data said it mattered."
 layout: project
 title: Turbine Blade Design
 description: Turbine blade design project for MAE 4272 

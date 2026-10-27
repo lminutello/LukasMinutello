@@ -69,6 +69,7 @@ footer {
   font-size: 0.9rem;
   a { color: #fff; margin: 0 0.6rem; text-decoration: none; }
   a:hover { color: #fff; text-decoration: underline; }
+  .copyright { margin-top: 4px; font-size: 0.8rem; color: rgba(255, 255, 255, 0.55); }
 }
 
 // ---------- Home hero ----------
@@ -208,4 +209,75 @@ footer {
   .hero .btn-row { justify-content: center; }
   .hero-photo { width: 150px; height: 150px; }
   .hero h1 { font-size: 2rem; }
+}
+
+// ---------- Resume page ----------
+.resume-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid $rule;
+  margin-bottom: 1rem;
+  h1 { margin: 0 0 0.3rem; }
+}
+.resume-sub { color: $muted; margin: 0 0 1rem; }
+
+.resume-preview {
+  flex-shrink: 0;
+  width: 150px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.82rem;
+  color: $green;
+  img {
+    width: 100%;
+    display: block;
+    border: 1px solid $rule;
+    border-radius: 6px;
+    background: #fff;
+    margin-bottom: 6px;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  &:hover img { transform: translateY(-2px); border-color: $green; }
+}
+
+.resume {
+  max-width: 820px;
+  h2 {
+    font-size: 1.15rem;
+    color: $green;
+    border-bottom: 1px solid $rule;
+    padding-bottom: 6px;
+    margin: 2.2rem 0 1rem;
+  }
+  ul { margin: 0.35rem 0 0.9rem; padding-left: 1.2rem; }
+  li { margin-bottom: 0.25rem; font-size: 0.97rem; }
+}
+.r-entry { margin-bottom: 1.4rem; }
+.r-head, .r-sub, .r-role {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  span { color: $muted; font-size: 0.92rem; white-space: nowrap; }
+}
+.r-head strong { font-size: 1.02rem; }
+.r-sub em, .r-role em { color: $ink; }
+.r-role { margin-top: 0.6rem; }
+.r-note { margin: 0.3rem 0 0; font-size: 0.95rem; }
+.r-skills {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 6px 16px;
+  dt { font-weight: 600; }
+  dd { margin: 0; }
+}
+
+@media (max-width: 680px) {
+  .resume-top { flex-direction: column-reverse; align-items: center; text-align: center; }
+  .resume-top .btn-row { justify-content: center; }
+  .resume-preview { width: 120px; }
+  .r-skills { grid-template-columns: 1fr; gap: 0 0; dd { margin-bottom: 8px; } }
 }
