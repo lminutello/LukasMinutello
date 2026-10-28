@@ -4,6 +4,7 @@
 
   var box = document.createElement('div');
   box.className = 'lightbox';
+  box.style.cssText = 'position:fixed;inset:0;z-index:2000;display:none;align-items:center;justify-content:center;background:rgba(16,28,22,0.86)';
   box.setAttribute('role', 'dialog');
   box.setAttribute('aria-modal', 'true');
   box.innerHTML =
@@ -32,8 +33,8 @@
     count.textContent = links.length > 1 ? (i + 1) + ' / ' + links.length : '';
     full.href = a.href;
   }
-  function open(n) { show(n); box.classList.add('open'); document.body.style.overflow = 'hidden'; }
-  function close() { box.classList.remove('open'); document.body.style.overflow = ''; }
+  function open(n) { show(n); box.classList.add('open'); box.style.display = 'flex'; document.body.style.overflow = 'hidden'; }
+  function close() { box.classList.remove('open'); box.style.display = 'none'; document.body.style.overflow = ''; }
 
   links.forEach(function (a, n) {
     a.addEventListener('click', function (e) { e.preventDefault(); open(n); });
@@ -43,7 +44,7 @@
   box.querySelector('.lb-next').addEventListener('click', function () { show(i + 1); });
   box.addEventListener('click', function (e) { if (e.target === box) close(); });
   document.addEventListener('keydown', function (e) {
-    if (!box.classList.contains('open')) return;
+    if (box.style.display !== 'flex') return;
     if (e.key === 'Escape') close();
     if (e.key === 'ArrowLeft') show(i - 1);
     if (e.key === 'ArrowRight') show(i + 1);
