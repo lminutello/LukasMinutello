@@ -1,7 +1,7 @@
 ---
-layout: project
 order: 21
-category: side
+category: other
+layout: project
 title: Robotic Arm and Hand
 description: 3D printed robotic hand controlled by webcam hand tracking
 summary: "[PLACEHOLDER] 3D printed robotic hand that copies your hand's movements using webcam hand tracking, Python, and an Arduino."

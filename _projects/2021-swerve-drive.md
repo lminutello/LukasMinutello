@@ -1,7 +1,7 @@
 ---
+order: 22
+category: other
 layout: project
-order: 20
-category: side
 title: Swerve Drive
 description: Swerve drive design for the Sciborgs FRC 1155 robotics team (2020/21)
 summary: "[PLACEHOLDER] Swerve drive modules for the Sciborgs (FRC 1155) robotics team, from CAD to a working drivetrain."

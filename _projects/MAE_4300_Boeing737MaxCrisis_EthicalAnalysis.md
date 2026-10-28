@@ -1,4 +1,5 @@
 ---
+hidden: true
 order: 9
 summary: "[PLACEHOLDER] Case study on the 737 MAX crashes, from MCAS and sensor redundancy to the organizational decisions behind them."
 layout: project
