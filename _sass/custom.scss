@@ -216,6 +216,82 @@ footer {
   figcaption { font-size: 0.85rem; color: $muted; margin-top: 4px; }
 }
 
+// ---------- Lightbox ----------
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background: rgba(16, 28, 22, 0.86);
+  align-items: center;
+  justify-content: center;
+  padding: 24px 64px;
+  &.open { display: flex; }
+}
+.lb-frame {
+  position: relative;
+  background: $paper;
+  border-radius: 10px;
+  padding: 12px;
+  max-width: unquote("min(1100px, 100%)");
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.lb-img {
+  max-width: 100%;
+  max-height: calc(100vh - 140px);
+  object-fit: contain;
+  border-radius: 6px;
+  background: #fff;
+}
+.lb-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 4px 2px;
+  font-size: 0.88rem;
+  color: $muted;
+  .lb-caption { flex: 1; }
+  .lb-full { color: $green; text-decoration: none; font-weight: 500; white-space: nowrap; }
+  .lb-full:hover { text-decoration: underline; }
+}
+.lb-close {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  background: $green;
+  color: #fff;
+  cursor: pointer;
+}
+.lb-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.92);
+  color: $green-dark;
+  font-size: 1.2rem;
+  cursor: pointer;
+  &:hover { background: #fff; }
+}
+.lb-prev { left: 12px; }
+.lb-next { right: 12px; }
+@media (max-width: 680px) {
+  .lightbox { padding: 16px 8px 72px; }
+  .lb-nav { top: auto; bottom: 14px; transform: none; }
+  .lb-prev { left: calc(50% - 54px); }
+  .lb-next { right: calc(50% - 54px); }
+  .lb-close { top: -10px; right: -6px; }
+}
+
 // ---------- Code ----------
 .highlight {
   background: #1d2420;
