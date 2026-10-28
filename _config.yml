@@ -19,7 +19,7 @@ baseurl                  : "/LukasMinutello" # Set this to your repo name
 theme: jekyll-theme-minimal
 
 # Contact
-email: lukas.minutello@gmail.com
+email: lsm229@cornell.edu
 phone: "917-885-5603"
 resume_pdf: /assets/LukasMinutello_Resume.pdf
 linkedin: lukasminutello
