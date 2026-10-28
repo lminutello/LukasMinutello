@@ -11,31 +11,33 @@ permalink: /resume/
 <aside class="resume-side">
 
   <div class="resume-preview">
-    <a href="{{ '/assets/resumeLM.pdf' | relative_url }}" target="_blank" rel="noopener" title="Open the PDF">
+    <a href="{{ site.resume_pdf | relative_url }}" target="_blank" rel="noopener" title="Open the PDF">
       <img src="{{ '/assets/images/resume-preview.png' | relative_url }}" alt="Resume PDF preview">
     </a>
-    <div class="preview-links">
-      <a href="{{ '/assets/resumeLM.pdf' | relative_url }}" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Open</a>
-      <a href="{{ '/assets/resumeLM.pdf' | relative_url }}" download><i class="bi bi-download"></i> Download</a>
-      {% if site.resume_docx %}<a href="{{ site.resume_docx | relative_url }}" download><i class="bi bi-file-earmark-word"></i> Word</a>{% endif %}
+    <div class="preview-btns">
+      <a class="btn-outline-green" href="{{ site.resume_pdf | relative_url }}" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Open</a>
+      <a class="btn-green" href="{{ site.resume_pdf | relative_url }}" download="LukasMinutello_Resume.pdf"><i class="bi bi-download"></i> Download</a>
     </div>
+    {% if site.resume_docx %}<a class="docx-link" href="{{ site.resume_docx | relative_url }}" download><i class="bi bi-file-earmark-word"></i> Word version</a>{% endif %}
   </div>
 
   <section>
     <h2>Education</h2>
     <p class="side-title">Cornell University</p>
-    <p class="side-sub">B.S. Mechanical Engineering<br>Dyson Business Minor for Engineers</p>
-    <p class="side-meta">Ithaca, NY · Expected May 2026</p>
+    <p class="side-sub">M.Eng. Mechanical Engineering</p>
+    <p class="side-meta">Expected Dec. 2026</p>
+    <p class="side-sub">B.S. Mechanical Engineering</p>
+    <p class="side-meta">May 2026 · Ithaca, NY</p>
     <p class="side-label">Coursework</p>
     <div>
-      <span class="tag">Mechatronics</span><span class="tag">System Dynamics</span><span class="tag">Materials</span><span class="tag">Fluids</span><span class="tag">Heat Transfer</span><span class="tag">Dynamics</span><span class="tag">Statics</span>
+      <span class="tag">Additive Manufacturing</span><span class="tag">Material Processing and Manufacturing</span><span class="tag">Autonomous Mobile Robots</span><span class="tag">Spaceflight Mechanics</span><span class="tag">Mechatronics</span><span class="tag">System Dynamics</span><span class="tag">Mechanics of Materials</span><span class="tag">Fluid Mechanics</span><span class="tag">Heat Transfer</span><span class="tag">Dynamics</span><span class="tag">Statics</span><span class="tag">Thermodynamics</span>
     </div>
   </section>
 
   <section>
     <h2>Skills</h2>
     <p class="side-label">Design</p>
-    <div><span class="tag">SolidWorks</span><span class="tag">Fusion 360</span><span class="tag">ANSYS FEA</span><span class="tag">KiCAD</span><span class="tag">DFMA</span></div>
+    <div><span class="tag">NX</span><span class="tag">SolidWorks</span><span class="tag">Fusion 360</span><span class="tag">ANSYS FEA</span><span class="tag">NX FEA</span><span class="tag">DFMA</span><span class="tag">DFMEA</span></div>
     <p class="side-label">Manufacturing</p>
     <div><span class="tag">Manual lathe and mill</span><span class="tag">CNC programming</span><span class="tag">3D printing</span><span class="tag">Soldering</span></div>
     <p class="side-label">Programming</p>
@@ -46,7 +48,6 @@ permalink: /resume/
     <h2>Certifications</h2>
     <ul class="side-list">
       <li>SolidWorks CWSA</li>
-      <li>Bloomberg Market Concepts</li>
       <li>Microsoft Office Specialist</li>
     </ul>
   </section>
@@ -54,22 +55,31 @@ permalink: /resume/
 </aside>
 
 <div class="resume-main">
-
   <section>
     <h2>Experience</h2>
 
     <div class="r-entry">
-      <div class="r-head"><strong>Cornell Baja Racing</strong><span>Oct 2022 – Present</span></div>
+      <div class="r-head"><strong>ASML</strong><span>May 2026 – Aug 2026</span></div>
+      <div class="r-sub"><em>Mechanical Design Intern</em><span>Wilton, CT</span></div>
+      <ul>
+        <li>Aided development of the UNICOM for new iterations of EUV machines.</li>
+        <li>Redesigned heat sink to be additively manufacturable (PBF) for optimized cooling channel geometry.</li>
+        <li>Conducted temperature testing to verify FEA results and to quantify thermal performance gains.</li>
+      </ul>
+    </div>
+
+    <div class="r-entry">
+      <div class="r-head"><strong>Cornell Baja Racing</strong><span>Oct 2022 – May 2026</span></div>
       <div class="r-sub"><em>Ithaca, NY</em></div>
       <ul>
         <li>Design, manufacture, and assemble an off-road vehicle to compete in the SAE Collegiate Baja Design Series.</li>
         <li>50+ hours of manual mill and lathe experience.</li>
       </ul>
-      <div class="r-role"><em>Brakes Subteam Member</em><span>July 2025 – Present</span></div>
+      <div class="r-role"><em>Brakes Subteam Member</em><span>July 2025 – May 2026</span></div>
       <ul>
-        <li>Designing floating brake rotors with reduced weight, minimized brake drag effects, less warping potential, more reliable pad contact, and better serviceability/ease of assembly.</li>
-        <li>Conducting temperature testing on legacy rotors for raw temperature values and to quantify effects of brake drag.</li>
-        <li>Doing coupled structural-thermal FEA in ANSYS using braking load cases and temperature logs to visualize stress and thermal expansion, informing material selection, air gap size, and other design parameters.</li>
+        <li>Designed floating brake rotors with reduced weight, minimized brake drag effects, less warping potential, more reliable pad contact, and better serviceability/ease of assembly.</li>
+        <li>Conducted temperature testing on legacy rotors for raw temperature values and to quantify effects of brake drag.</li>
+        <li>Performed coupled structural-thermal FEA in ANSYS using braking load cases and temperature logs to visualize stress and thermal expansion, informing material selection, air gap size, and other design parameters.</li>
       </ul>
       <div class="r-role"><em>Suspension Subteam Member</em><span>July 2023 – June 2025</span></div>
       <ul>
@@ -101,37 +111,7 @@ permalink: /resume/
         <li>Optimized work order assignment and documentation to streamline the workflow of senior BMETs.</li>
       </ul>
     </div>
-
-    <div class="r-entry">
-      <div class="r-head"><strong>Code Brown</strong><span>May 2023 – Aug 2023</span></div>
-      <div class="r-sub"><em>Product Development Intern</em><span>New York, NY</span></div>
-      <ul>
-        <li>Designed a scent detection device using gas sensors to monitor baby health/diaper changing and patient well-being.</li>
-        <li>Created odor classification algorithms in BME AI-Studio to map multivariate sensor data to user defined scents.</li>
-      </ul>
-    </div>
   </section>
-
-  <details class="r-more">
-    <summary><h2>Additional experience</h2></summary>
-
-    <div class="r-entry">
-      <div class="r-head"><strong>Tech4Teens, Inc. Nonprofit</strong><span>Oct 2022 – Present</span></div>
-      <div class="r-sub"><em>Senior Advisor</em><span>Astoria, NY</span></div>
-      <ul>
-        <li>Providing personal computers to NYC students for education and career development.</li>
-        <li>Advising on reliable, cost-effective hardware selection and overseeing computer assembly.</li>
-      </ul>
-    </div>
-    <div class="r-entry">
-      <div class="r-head"><strong>Bronx High School of Science Robotics</strong><span>Oct 2018 – June 2022</span></div>
-      <div class="r-sub"><em>Construction Team Lead</em><span>The Bronx, NY</span></div>
-      <ul>
-        <li>Taught and oversaw members of the construction department of the Sciborgs (1155) robotics team.</li>
-        <li>Responsible for the operation of the team's Laguna IQ CNC router and creating toolpaths on Fusion 360 CAM.</li>
-      </ul>
-    </div>
-  </details>
 </div>
 
 </div>

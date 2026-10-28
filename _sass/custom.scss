@@ -261,15 +261,13 @@ footer {
   }
   a:hover img { transform: translateY(-2px); border-color: $green; }
 }
-.preview-links {
+.preview-btns {
   display: flex;
-  justify-content: center;
-  gap: 16px;
-  margin-top: 10px;
-  font-size: 0.85rem;
-  a { text-decoration: none; font-weight: 500; }
-  a:hover { text-decoration: underline; }
+  gap: 8px;
+  margin-top: 12px;
+  a { flex: 1; justify-content: center; padding: 7px 10px; font-size: 0.88rem; }
 }
+.docx-link { display: inline-block; margin-top: 8px; font-size: 0.85rem; text-decoration: none; }
 
 .resume-title { margin: 0 0 1.4rem; }
 

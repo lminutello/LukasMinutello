@@ -19,9 +19,9 @@ title: Lukas Minutello
 <div class="prose" markdown="1">
 <div class="section-label">About</div>
 
-[PLACEHOLDER] I'm a master's student in Mechanical Engineering at Cornell, where I also did my B.S. with a Dyson Business Minor. Most of my hands-on work comes from Cornell Baja Racing, where I've designed suspension and brake components: front uprights, carbon fiber tie rods, and floating brake rotors, all taken from CAD and FEA through machining and testing.
+[PLACEHOLDER] I'm an M.Eng. student in Mechanical Engineering at Cornell, where I also did my B.S. Most of my hands-on work comes from Cornell Baja Racing, where I've designed suspension and brake components: front uprights, carbon fiber tie rods, and floating brake rotors, all taken from CAD and FEA through machining and testing.
 
-[PLACEHOLDER] Outside of Baja I've interned at ASML, done robotics research at the Cornell Architectural Robotics Lab, and worked as a biomedical equipment technician at NYC Health + Hospitals.
+[PLACEHOLDER] Outside of Baja I've interned at ASML as a mechanical design intern on EUV machines, done robotics research at the Cornell Architectural Robotics Lab, and worked as a biomedical equipment technician at NYC Health + Hospitals.
 </div>
 
 <div class="section-label" style="margin-top: 3rem;">Projects</div>
