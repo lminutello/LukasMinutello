@@ -153,6 +153,8 @@ footer {
   .tags { margin-top: 10px; }
 }
 
+.projects-section { margin-top: 3rem; }
+
 .project-card:hover { transform: translateY(-3px); border-color: $green; color: $ink; }
 
 .tag {
@@ -209,6 +211,7 @@ footer {
     background: #fff;
     transition: border-color 0.2s;
   }
+  video { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; border-radius: 8px; border: 1px solid $rule; background: #fff; display: block; }
   a:hover img { border-color: $green; }
   figcaption { font-size: 0.85rem; color: $muted; margin-top: 4px; }
 }

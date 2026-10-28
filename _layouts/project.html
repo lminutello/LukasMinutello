@@ -6,7 +6,6 @@ layout: default
   <div class="project-header">
     <h1>{{ page.title }}</h1>
     {% if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
-    {% if page.technologies %}<div>{% for t in page.technologies %}<span class="tag">{{ t }}</span>{% endfor %}</div>{% endif %}
   </div>
 
   {% if page.image %}<img class="project-hero" src="{{ page.image | relative_url }}" alt="{{ page.title }}">{% endif %}
