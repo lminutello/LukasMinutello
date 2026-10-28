@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 3
 featured: true
 summary: "[PLACEHOLDER] Designed and wind-tunnel tested a three-blade turbine. Hit ~20% efficiency (34% of the Betz limit) right where the wind data said it mattered."
 layout: project

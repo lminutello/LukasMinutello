@@ -1,0 +1,10 @@
+{% if include.images %}
+<div class="gallery">
+  {% for img in include.images %}
+  <figure>
+    <a href="{{ img.src | relative_url }}" target="_blank" rel="noopener"><img src="{{ img.src | relative_url }}" alt="{{ img.alt | default: page.title }}" loading="lazy"></a>
+    {% if img.caption %}<figcaption>{{ img.caption }}</figcaption>{% endif %}
+  </figure>
+  {% endfor %}
+</div>
+{% endif %}

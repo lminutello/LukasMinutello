@@ -7,6 +7,13 @@ title: Front Uprights
 description: Front Uprights for Cornell Baja Racing TG21 Car (2024-2025)
 technologies: [SolidWorks, ANSYS]
 image: /assets/images/front-upright.png
+gallery:
+  - src: /assets/images/front-upright/1.jpg
+  - src: /assets/images/front-upright/2.jpg
+  - src: /assets/images/front-upright/3.jpg
+  - src: /assets/images/front-upright/4.jpg
+  - src: /assets/images/front-upright/5.jpg
+  - src: /assets/images/front-upright/6.jpg
 ---
 
 

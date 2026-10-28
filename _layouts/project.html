@@ -15,5 +15,7 @@ layout: default
     {{ content }}
   </div>
 
+  {% include gallery.html images=page.gallery %}
+
   <a href="{{ "/projects/" | relative_url }}" class="back-arrow"><i class="bi bi-arrow-left"></i> Back to projects</a>
 </article>

@@ -192,6 +192,27 @@ footer {
 }
 .back-arrow:hover { transform: translateX(-4px); color: $green-dark; }
 
+// ---------- Project gallery ----------
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+  margin-top: 2rem;
+  figure { margin: 0; }
+  img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid $rule;
+    background: #fff;
+    transition: border-color 0.2s;
+  }
+  a:hover img { border-color: $green; }
+  figcaption { font-size: 0.85rem; color: $muted; margin-top: 4px; }
+}
+
 // ---------- Code ----------
 .highlight {
   background: #1d2420;
